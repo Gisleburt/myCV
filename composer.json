@@ -1,0 +1,9 @@
+{
+	"require" : {
+		"gisleburt/lazydata": "dev-master",
+		"gisleburt/template": "dev-master",
+		"gisleburt/form": "dev-master",
+		"gisleburt/tools": "dev-master",
+		"gisleburt/validator": "dev-master"
+	}
+}
