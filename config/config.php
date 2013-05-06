@@ -15,23 +15,6 @@
 				'library'    => 'Library',
 			);
 
-		// Smarty
-		public $smarty = array(
-				'includeDir' => 'Library/Smarty',
-				'configDirs' => array(
-						'Library/Smarty/configs',
-					),
-				'pluginsDirs' => array(
-						'Library/Smarty/plugins',
-						'Library/Smarty/sysplugins',
-					),
-				'cacheDir'      => 'data/cache',
-				'compileDir'    => 'data/templates_c',
-				'templateDirs'  => array(
-						'data/templates',
-						'Library/Thymely/Templates',
-					),
-			);
 
 		public $twig = array(
 				'twigDir' => 'Library/Twig/lib/Twig',
@@ -42,11 +25,6 @@
 				'compileDir'    => 'data/templates_c',
 			);
 
-		public $phpTemplates = array(
-				'templateDirs' => array(
-					'Library/Thymely/Templates',
-				)
-			);
 
 		// MySQL
 		public $mysqlUser   = 'dummyuser';

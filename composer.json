@@ -1,9 +1,14 @@
 {
 	"require" : {
+
 		"gisleburt/lazydata": "dev-master",
 		"gisleburt/template": "dev-master",
 		"gisleburt/form": "dev-master",
 		"gisleburt/tools": "dev-master",
-		"gisleburt/validator": "dev-master"
+		"gisleburt/validator": "dev-master",
+
+		"twig/twig": "1.13.*@dev",
+		"dompdf/dompdf": "dev-master"
+
 	}
 }
